@@ -45,6 +45,9 @@ a:active{
     font-weight: bolder;
 }
 
+#edit{
+    color: #b05288;
+}
 button{
     background-color: #b05288;
     height: 40px;
