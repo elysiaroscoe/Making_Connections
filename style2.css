@@ -1,0 +1,174 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+.container{
+    display: flex;
+}
+
+.header{
+    background-color: #dd8773;
+    height: 80px;
+    padding: 5px;
+    margin: 10px;
+    border: 5px;
+    padding-right: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav{
+    width: 40%;
+}
+
+.links{
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    list-style-type: none;
+}
+
+a{
+    color: grey;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #b05288;
+}
+
+a:active{
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+button{
+    background-color: #b05288;
+    height: 40px;
+    width: 100px;
+    border: black solid 2px;
+    border-radius: 10%;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 5px 3px 1px 1px #ffdeca;
+}
+
+.main{
+    height: 800px;
+    width: 100%;
+    margin-top: 50px;
+}
+.columns{
+    height: 100%;
+    width: 100%;
+}
+
+.space{
+    flex: 1
+}
+
+.profile{
+    height: 100%;
+    margin: 20px;
+    flex: 3
+}
+
+.summary{
+    background-color: #ffccbf;
+    height: 75%;
+    margin-bottom: 15px;
+}
+
+.box{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+
+.box img{
+    height: 80px;
+    width: auto;
+    border: #b05288 solid 3px;
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+    left: 15px;
+}
+
+.info{
+    margin: 25px;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+
+.info img{
+    height: 15px;
+    width: auto;
+}
+
+.edu{
+    background-color: #ffdeca;
+    height: 25%;
+}
+
+.connections{
+    height: 100%;
+    margin: 20px;
+    flex: 2
+}
+
+
+.requests{
+    background-color: #ffceea;
+    height: 40%;
+    margin-bottom: 15px;
+}
+
+.your{
+    background-color: #ffbae2;
+    height: 60%;
+}
+
+.section{
+    background-color: #dd8773;
+    color: black;
+    height: 50px;
+    width: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.section p{
+    background-color: #b05288;
+    color: black;
+    border: black solid 1px;
+    border-radius: 50%;
+    width: auto;
+    padding: 8px;
+}
+
+.text{
+    margin: 25px;
+}
+
+.text img{
+    height: 25px;
+    border-radius: 50%;
+}
+
+h5{
+    color: grey;
+}
+
+.line{
+    justify-content: space-between;
+}
+
+.border{
+    border: #b05288 3px solid;
+}
